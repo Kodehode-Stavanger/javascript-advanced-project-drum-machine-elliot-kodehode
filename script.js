@@ -11,7 +11,6 @@ function audioPlayer(key) {
     audio.play();
   }
 }
-
 // added key press/down functionality
 window.addEventListener("keydown", (event) => {
   const keyValue = event.key.toLowerCase();
