@@ -1,0 +1,64 @@
+/** @format */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(50, 44, 50);
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+#instruments-container {
+  gap: 30px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.key {
+  border-radius: 5px;
+  width: 220px;
+  padding: 20px 0px;
+  font-size: 42px;
+  text-transform: uppercase;
+}
+p {
+  width: 100%;
+  text-align: center;
+  user-select: none;
+}
+
+.key:hover,
+.key:focus {
+  scale: 1.1;
+  cursor: pointer;
+}
+
+.key:first-child {
+  background-color: rgb(255, 73, 215);
+}
+.key:nth-child(2) {
+  background-color: rgb(234, 72, 221);
+}
+.key:nth-child(3) {
+  background-color: rgb(212, 72, 226);
+}
+.key:nth-child(4) {
+  background-color: rgb(191, 71, 232);
+}
+.key:nth-child(5) {
+  background-color: rgb(170, 70, 238);
+}
+.key:nth-child(6) {
+  background-color: rgb(149, 69, 244);
+}
+.key:nth-child(7) {
+  background-color: rgb(127, 69, 249);
+}
+.key:nth-child(8) {
+  background-color: rgb(106, 68, 255);
+}
