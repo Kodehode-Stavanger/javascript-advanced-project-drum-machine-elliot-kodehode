@@ -1,0 +1,125 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <script
+      src="script.js"
+      defer
+    ></script>
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Strait&display=swap" rel="stylesheet">
+    <title>Interactive drumkit</title>
+  </head>
+  <body>
+    <div id="instruments-container">
+
+      <div
+      class="key-container"
+        id="a"
+      >
+      <p class="key">A</p>
+      <p class="sound">Clap</p>
+        <audio
+          data-key="a"
+          src="./sounds/clap.wav"
+        ></audio>
+      </div>
+
+      <div
+        class="key-container"
+        id="s"
+      >
+      <p class="key">S</p>
+      <p class="sound">Hihat</p>
+        <audio
+          data-key="s"
+          src="./sounds/hihat.wav"
+        ></audio>
+      </div>
+
+      <div
+      class="key-container"
+        id="d"
+      >
+      <p class="key">D</p>
+      <p class="sound">Kick</p>
+        <audio
+          data-key="d"
+          src="./sounds/kick.wav"
+        ></audio>
+      </div>
+
+      <div
+      class="key-container"
+        id="f"
+      >
+      <p class="key">F</p>
+      <p class="sound">Openhat</p>
+        <audio
+          data-key="f"
+          src="./sounds/openhat.wav"
+        ></audio>
+      </div>
+
+      <div
+      class="key-container"
+        id="h"
+      >
+      <p class="key">H</p>
+      <p class="sound">Ride</p>
+        <audio
+          data-key="h"
+          src="./sounds/ride.wav"
+        ></audio>
+      </div>
+
+      <div
+      class="key-container"
+        id="j"
+      >
+        <p class="key">J</p>
+        <p class="sound">Snare</p>
+        <audio
+          data-key="j"
+          src="./sounds/snare.wav"
+        ></audio>
+      </div>
+
+      <div
+      class="key-container"
+        id="k"
+      >
+      <p class="key">K</p>
+      <p class="sound">Tink</p>
+        <audio
+          data-key="k"
+          src="./sounds/tink.wav"
+        ></audio>
+      </div>
+
+      <div
+      class="key-container"
+        id="l"
+      >
+      <p class="key">L</p>
+      <p class="sound">Tom</p>
+        <audio
+          data-key="l"
+          src="./sounds/tom.wav"
+        ></audio>
+      </div>
+
+    </div>
+  </body>
+</html>

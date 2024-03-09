@@ -1,0 +1,61 @@
+/** @format */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url(./images/markus-clemens-j2DzHEKyJnE-unsplash.jpg);
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+#instruments-container {
+  gap: 30px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.key-container {
+  border-radius: 8px;
+  width: 220px;
+  padding: 20px 0px;
+  text-transform: uppercase;
+  background-color: rgba(39, 39, 39, 0.85);
+  border: 4px solid rgb(87, 87, 87);
+  box-shadow: 5px 5px rgba(11, 11, 11, 0.743);
+}
+.key-container:hover,
+.key-container:focus {
+  scale: 1.1;
+  cursor: pointer;
+}
+
+
+/* text inside container */
+
+p {
+  font-family: "Manrope", sans-serif;
+  width: 100%;
+  text-align: center;
+  user-select: none;
+}
+
+.key {
+  color: white;
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.sound {
+  color:rgb(199, 199, 199);
+  font-size: 32px;
+  font-weight: 600;
+}
+
+
+
