@@ -1,6 +1,6 @@
 /** @format */
 
-const keys = document.querySelectorAll(".key");
+const keys = document.querySelectorAll(".key-container");
 
 //plays the audio
 
@@ -11,7 +11,8 @@ function audioPlayer(key) {
     audio.play();
   }
 }
-// added key press/down functionality
+// adding key press/down functionality
+
 window.addEventListener("keydown", (event) => {
   const keyValue = event.key.toLowerCase();
   keys.forEach((keyElement) => {
@@ -22,7 +23,7 @@ window.addEventListener("keydown", (event) => {
   });
 });
 
-// added clicking functionality
+// adds clicking functionality
 
 keys.forEach((keyElement) => {
   keyElement.addEventListener("click", () => {
@@ -30,5 +31,3 @@ keys.forEach((keyElement) => {
     audioPlayer(dataKey);
   });
 });
-
-// Need to add active effect on keydown, style more, maybe redo the whole thing ???
